@@ -1,0 +1,38 @@
+.atras{
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); 
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+}
+h1{
+    color: #F2F2F2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px #ADA2F2;
+}
+.ditto{
+    padding-left: 30rem;
+}
+.button{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.card{ 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #f2f2f2;
+    height: 400px;
+    width: 250px;
+    box-shadow: 3px 3px 3px 1px;
+    text-align: center;
+    color: #7F00FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-shadow :2px 2px 2px #ADA2F2;
+}
+.card > label{
+    margin-top: 2px;
+}
+.alinear{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}

@@ -1,0 +1,122 @@
+.fondo{
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); 
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+}
+.ditto-flex{
+    display: inline-block;
+    padding: 2rem;
+}
+.barra{
+    border-radius: 10px;
+    position: fixed;
+}
+.dittotext{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .dropdown-content a:hover {
+    color: #f2f2f2;
+    background-color: #ADA2F2;
+}
+.bell{
+    color: #f2f2f2;
+    margin: 10px;
+    border-right: 30px;
+    padding: 2rem;
+}
+.publicacion{
+    margin-left: 70rem;
+}
+.card{ 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ADA2F2;
+    height: 400px;
+    width: 250px;
+    box-shadow: 3px 3px 3px 1px;
+    text-align: center;
+    color: #614bf2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-shadow :2px 2px 2px #ADA2F2;
+}
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-align: center;
+    text-align: center;
+    color: #614bf2;
+    text-shadow: 2px 2px 2px #9080F2;
+    padding: 50px;
+    box-shadow: #f2f2f2;
+}
+.card-1{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 300px;
+    width: 250px;
+}
+.cardGeneral{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 800px;
+    width: 700px;
+}
+.cardGeneral.card-2{
+    height: 300px;
+    width: 700px;
+}
+.card-3{
+    height: 300px;
+    width: 290px;
+}
+.pie{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f2f2f2;
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); 
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+    text-shadow: 2px 2px 2px #614bf2;
+}
+.minicard{
+    align-items: center;
+    height: 300px;
+    width: 1270px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 2px #614bf2;
+}
+h3{
+    color: #f2f2f2;
+    text-shadow: 2px 2px 2px #9080F2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+}
+.dittoPerfil{
+    max-height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+}
